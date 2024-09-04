@@ -1,12 +1,12 @@
-utilizando postgressql server 16
-en el cmd de windows
-crear una base de datos llamada desafio3_Gabriel_Muñoz_420 con las siguientes tablas.
+1. Crea y agrega al entregable las consultas para completar el setup de acuerdo a lo
+pedido.
+    
+Crear una base de datos llamada desafio3_Gabriel_Muñoz_420 con las siguientes tablas.
 
 CREATE DATABASE desafio3_Gabriel_Munoz_420;
 
 \c desafio3_gabriel_munoz_420
-
-------------------------------------------------------------------------------------------------------------------------------------
+    
 Primera tabla
 Usuarios con los campos: 
 id, email, nombre, apellido, rol
@@ -98,12 +98,6 @@ INSERT INTO Comentarios (contenido, usuario_id, post_id) VALUES
 ('Comentario 3 en Post 1', 3, 1),
 ('Comentario 1 en Post 2', 1, 2),
 ('Comentario 2 en Post 2', 2, 2);
-
-------------------------------------------------------------------
-con esto necesito:
-
-1. Crea y agrega al entregable las consultas para completar el setup de acuerdo a lo
-pedido.
 
 2. Cruza los datos de la tabla usuarios y posts, mostrando las siguientes columnas:
 nombre y email del usuario junto al título y contenido del post.
